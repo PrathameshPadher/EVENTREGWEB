@@ -9,7 +9,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://127.0.0.1:5500",
-    "https://eventregwebsite.netlify.app/"
+    "https://eventregwebsite.netlify.app"
   ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
